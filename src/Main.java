@@ -1,10 +1,18 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
-        int a[] = {3,5,7,9,10,90,100,130,140,160,170};
-        FindingIndexInInfiniteArray b = new FindingIndexInInfiniteArray();
-        int res = b.ans(a,90);
-        System.out.println(res);
+        int a[][] = {
+                {10,20,30,40},
+                {15,25,35,45},
+                {28,29,37,45},
+                {33,34,38,50}
+        };
+        FindingInSortedRolcolMatrix b = new FindingInSortedRolcolMatrix();
+        int[] res = b.find(a,15);
+        System.out.println(Arrays.toString(res));
     }
 
 
