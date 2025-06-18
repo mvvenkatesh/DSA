@@ -8,7 +8,7 @@ public class SortedMatrix {
                 {5,6,7,8},
                 {9,10,11,12}
         };
-        System.out.println(Arrays.toString(find(a,3)));
+        System.out.println(Arrays.toString(find(a,12)));
 
     }
 
